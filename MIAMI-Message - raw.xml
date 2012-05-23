@@ -1,0 +1,22 @@
+<labMethods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<labMethod name="Method-1">
+		<labActivities>
+			<labActivity name="GoPos-1">
+				<parameters>
+					<parameter id="Position" type="int">0</parameter>
+					<parameter id="ForwardDosingSpeed" type="key">max</parameter>
+					<parameter id="ReverseDosingSpeed" type="key">max</parameter>
+				</parameters>
+			</labActivity>
+			<labActivity name="MakeStep-1">
+				<parameters>
+					<parameter id="Volume" type="volume">0</parameter>
+					<parameter id="Direction" type="key">fw</parameter>
+					<parameter id="FillPort" type="int">2</parameter>
+					<parameter id="ForwardDosingSpeed" type="key">max</parameter>
+					<parameter id="ReverseDosingSpeed" type="key">max</parameter>
+				</parameters>
+			</labActivity>
+		</labActivities>
+	</labMethod>
+</labMethods>
